@@ -13,7 +13,7 @@
 
 ## Instructions
 
-1. Preheat oven to 350°F (175°C).
+1. Preheat oven to 175°C.
 2. In a large skillet, cook beef and onion over medium heat until meat is no longer pink; drain.
 3. Stir in broccoli, cheese, sour cream, salt and pepper. Heat through.
 4. Unroll a tube of crescent dough onto a greased baking sheet; form into a 12x8-in. rectangle, sealing seams and perforations. Spoon half the beef mixture lengthwise down the center third of the rectangle.
