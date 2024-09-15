@@ -2,7 +2,7 @@
 
 ## Ingredients 
 
-### For the sauce
+#### For the sauce
 - 1/3 cup chicken or vegetable stock
 - 1 tbsp soy sauce
 - 2 tbsp fish sauce
@@ -14,7 +14,7 @@
 - 1 tsp minced ginger
 - 1 tsp minced garlic
 
-### For the Pad Thai
+#### For the Pad Thai
 - 4 oz (115g) rice noodles
 - 1 tsp olive oil
 - 1 egg, beaten
