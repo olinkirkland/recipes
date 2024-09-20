@@ -17,7 +17,7 @@
 
 ### Dressing
 - 2 tbsp olive oil
-- 2 tbsp lemon
+- 2 tbsp lemon juice
 - 2 tbsp pomegranate molasses
 
 ## Instructions

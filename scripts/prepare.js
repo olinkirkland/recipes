@@ -2,7 +2,7 @@ import fs from 'fs';
 
 /**
  * This script creates an array of objects for each
- * markdown file in the recipes folder.
+ * markdown file in the recipes folder, and writes it to a JSON file.
  */
 
 const recipesFolderPath = './recipes';
@@ -19,16 +19,17 @@ recipeCategories.forEach((recipeCategory) => {
   recipeFiles.forEach((recipeFile) => {
     const recipePath = `${categoryPath}/${recipeFile}`;
     const content = fs.readFileSync(recipePath, 'utf8');
+    const slug = recipeFile.replace('.md', '');
+    const titleRegexMatches = content.match(/^#\s(.+)/m);
+    const title = titleRegexMatches ? titleRegexMatches[1] : null;
     recipes.push({
-      slug: recipeFile.replace('.md', ''),
+      slug,
+      title,
       category: recipeCategory,
       content
     });
   });
 });
 
-console.log(recipes);
-
 // Write the recipes array to a JSON file
-
 fs.writeFileSync('./src/assets/recipes.json', JSON.stringify(recipes));

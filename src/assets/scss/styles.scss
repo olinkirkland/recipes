@@ -1,0 +1,27 @@
+body {
+  font-family: 'Georgia', serif;
+}
+
+.tag {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  padding: 0.2rem 0.8rem;
+  display: inline-flex;
+  width: fit-content;
+  border: 2px solid black;
+
+  &--foods {
+    background-color: #65c27b;
+  }
+
+  &--drinks {
+    background-color: #b8deff;
+  }
+}
+
+.muted {
+  opacity: 0.4;
+}
