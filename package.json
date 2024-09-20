@@ -11,6 +11,8 @@
     "prepare": "node scripts/prepare.js"
   },
   "dependencies": {
+    "@types/marked": "^5.0.2",
+    "marked": "^14.1.2",
     "vue": "^3.5.6"
   },
   "devDependencies": {

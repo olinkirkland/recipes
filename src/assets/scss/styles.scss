@@ -1,5 +1,6 @@
-body {
+body, button {
   font-family: 'Georgia', serif;
+  font-size: 2rem;
 }
 
 .tag {
@@ -12,16 +13,12 @@ body {
   display: inline-flex;
   width: fit-content;
   border: 2px solid black;
-
-  &--foods {
-    background-color: #65c27b;
-  }
-
-  &--drinks {
-    background-color: #b8deff;
-  }
 }
 
 .muted {
   opacity: 0.4;
+}
+
+button {
+  font-size: 2rem;
 }
