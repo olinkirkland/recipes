@@ -1,6 +1,6 @@
 <template>
   <div class="layout">
-    <h1>Recipes</h1>
+    <h1 class="app-heading">Recipes</h1>
     <section>
       <div class="tile-grid">
         <RecipeTile
@@ -59,7 +59,7 @@ const recipes = computed(() => {
   }
 }
 
-h1 {
+h1.app-heading {
   text-align: center;
   margin: 2.4rem;
 }

@@ -39,7 +39,6 @@ defineProps<{
   user-select: none;
   top: 0;
   left: 0;
-  transition: all 0.1s;
 }
 
 .tile > .tile__shadow {
@@ -51,10 +50,11 @@ defineProps<{
   width: 100%;
   height: 100%;
   background-color: black;
-  transition: all 0.2s;
 }
 
 .tile.selected {
+  transition: all 0.2s;
+
   &.foods > .tile__content {
     background-color: #65c27b;
   }
